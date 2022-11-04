@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="jp">
+<style>
+	body {
+		background-color: mintcream;
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.header{
+		background-color: linen;
+		text-align: center;
+		margin:0px -5% 0px;
+		padding-top:75px;
+		border-radius: 15px;
+		width:110%;
+		height: 150px
+	}
+	.headtext{
+		font-family: "Lucida Handwriting", "cursive";
+		font-size: 40pt;
+		padding:15px;
+		margin:0;
+	}
+	.spacebox{	
+		display: block;
+		color: ivory;
+		text-align: center;
+		padding: 14px 14%;
+		text-decoration: none;
+		float:left;
+	}
+	.navigation{
+		display:inline-block;
+		list-style-type: none;
+		margin: 0px -5px;
+		padding: 0;
+		overflow: hidden;
+		background-color: SaddleBrown;
+		position: fixed;
+		top: 0;
+		left:0;
+		width: 100%;
+		border: 5px double saddlebrown; 
+	}
+	.topnav{
+	}
+	.topnav a{
+		display: block;
+		color: ivory;
+		text-align: center;
+		padding: 14px 50px;
+		text-decoration: none;
+		float:left;
+	}
+	.topnav a:hover{
+		background-color: Chocolate;
+	}
+	.active{
+		background-color: Chocolate;
+	}
+	.content{
+		margin:-50px 10% 50px;
+		box-shadow: 5px -1px 5px -5px lavender;
+		padding: 5px 30px;
+		box-sizing: border-box;
+		background-color: mintcream;
+		border-radius: 5px;
+	}
+	.title{
+		font-family: "avantgarde", "sans-serif";
+		font-size: 40pt;
+	}
+	.essay{
+		font-family: "avantgarde", "sans-serif";
+		font-size: 16pt;
+	}
+    .footer{
+        background-color: forestgreen;
+        height: 100px;
+        width: 105%;
+        margin-left: -5%;
+        position: fixed;
+        bottom: 0;
+        right:0;
+        border-top: 5px double mintcream;
+    }
+
+</style>
+<head>
+        <title>Samuel Armstrong's Super Cool Website</title>
+</head>
+<body>
+    <div class=header><p class=headtext>References</p>
+	    </div>
+	<img style="float:right; width:300px; height:300px; margin-right:250px;
+	    margin-top: -150px; border: 5px solid mintcream;"
+	    src=test.jpg>
+	<ul class=navigation>	
+		<li class=topnav style="float:left"><a href="index.html">About</a></li>
+		<li class=spacebox><p></li>
+		<li class=topnav><a href="page1.html">Page1</a></li>
+		<li class=topnav><a href="page2.html">Page2</a></li>
+		<li class=topnav><a href="page3.html">Page3</a></li>
+		<li class=topnav style="float:right"><a class="active" href="references.html">References</a></li>
+	</ul>
+	<div class=content>
+		<p class=essay>This is an example reference.</p>
+	</div>
+    <div class=footer></div>
+
+
+</body> 
+
