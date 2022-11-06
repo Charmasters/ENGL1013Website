@@ -25,12 +25,12 @@
 		display: block;
 		color: ivory;
 		text-align: center;
-		padding: 14px 14%;
 		text-decoration: none;
 		float:left;
+		flex-grow: 1;
 	}
 	.navigation{
-		display:inline-block;
+		display:flex;
 		list-style-type: none;
 		margin: 0px -5px;
 		padding: 0;
@@ -59,6 +59,8 @@
 		background-color: Chocolate;
 	}
 	.content{
+	    width: 80%;
+	    display: inline-block;
 		margin:-50px 10% 50px;
 		box-shadow: 5px -1px 5px -5px lavender;
 		padding: 15px 120px;
@@ -70,20 +72,24 @@
 		font-family: "avantgarde", "sans-serif";
 		font-size: 40pt;
 	}
+	.image{
+	    
+    }
 	.essay{
 		font-family: "avantgarde", "sans-serif";
 		font-size: 20pt;
+		float: left;
 	}
     .footer{
+        float:middle;
         background-color: forestgreen;
         height: 200px;
-        width: 105%;
-        margin-left: -5%;
+        width: 10000%;
+        margin-left: -1000%;
         margin-bottom: -10px;
-        bottom: 0;
-        right:0;
         border-top: 5px double mintcream;
     }
+    
 
 </style>
 <head>
@@ -92,15 +98,13 @@
 <body>
 	<div class=header><p class=headtext>Samuel Armstrong's <br>Super Cool Website</p>
 	    </div>
-	<img style="float:right; width:300px; height:300px; margin-right:250px;
-	    margin-top: -150px; border: 5px solid mintcream;"
-	    src=test.jpg>
 	<ul class=navigation>	
-		<li class=topnav style="float:left"><a class="active" href="index.html">About</a></li>
+		<li class=topnav style="float:left; padding-right: 2.5%;"><a class="active" href="index.html">About</a></li>
 		<li class=spacebox><p></p></li>
 		<li class=topnav><a href="page1.html">Page1</a></li>
 		<li class=topnav><a href="page2.html">Page2</a></li>
 		<li class=topnav><a href="page3.html">Page3</a></li>
+		<li class=spacebox><p></li>
 		<li class=topnav style="float:right"><a href="references.html">References</a></li>
 	</ul>
 	<div class=content>

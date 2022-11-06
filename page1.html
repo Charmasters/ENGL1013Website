@@ -25,12 +25,12 @@
 		display: block;
 		color: ivory;
 		text-align: center;
-		padding: 14px 14%;
 		text-decoration: none;
 		float:left;
+		flex-grow: 1;
 	}
 	.navigation{
-		display:inline-block;
+		display:flex;
 		list-style-type: none;
 		margin: 0px -5px;
 		padding: 0;
@@ -59,6 +59,8 @@
 		background-color: Chocolate;
 	}
 	.content{
+	    width: 80%;
+	    display: inline-block;
 		margin:-50px 10% 50px;
 		box-shadow: 5px -1px 5px -5px lavender;
 		padding: 15px 120px;
@@ -70,20 +72,24 @@
 		font-family: "avantgarde", "sans-serif";
 		font-size: 40pt;
 	}
+	.image{
+	    
+    }
 	.essay{
 		font-family: "avantgarde", "sans-serif";
 		font-size: 20pt;
+		float: left;
 	}
     .footer{
+        float:middle;
         background-color: forestgreen;
         height: 200px;
-        width: 105%;
-        margin-left: -5%;
+        width: 10000%;
+        margin-left: -1000%;
         margin-bottom: -10px;
-        bottom: 0;
-        right:0;
         border-top: 5px double mintcream;
     }
+    
 
 </style>
 <head>
@@ -92,52 +98,56 @@
 <body>
     <div class=header><p class=headtext>POWER</p>
 	    </div>
-	<img style="float:right; width:300px; height:300px; margin-right:250px;
-	    margin-top: -150px; border: 5px solid mintcream;"
-	    src=test.jpg>
+	
 	<ul class=navigation>	
-		<li class=topnav style="float:left"><a href="index.html">About</a></li>
+		<li class=topnav style="float:left; padding-right: 2.5%;"><a href="index.html">About</a></li>
 		<li class=spacebox><p></li>
 		<li class=topnav><a class=active href="page1.html">Page1</a></li>
 		<li class=topnav><a href="page2.html">Page2</a></li>
 		<li class=topnav><a href="page3.html">Page3</a></li>
+		<li class=spacebox><p></li>
 		<li class=topnav style="float:right"><a href="references.html">References</a></li>
 	</ul>
 	<div class=content>
-		<p class=essay>&emsp;We live in a sad universe that doesn't permit us to 
-		fire lightning or flames from our fingertips. Well, we're close, but 
-		that requires money, intellect, and access to a barren landscape where 
-		it isn't illegal yet. <br><br>
-		&emsp;Thankfully, most fantasy worlds don't have those reasonable 
-		limitations. Without needing to find a new job, anyone can pretend to be 
-		a powerful wizard and take their frustrations out on unsuspecting 
-		townsfolk for the price of a replacement desk and drywall. <br><br>
-		&emsp;Under <a href="https://medium.com/@nataliegarza011/gaming-
-		addiction-why-people-play-video-games-57a78c9ee57f">Natalie Garza's</a> 
-		categories of motivation to play games, 
-		these kinds of sandboxes provide the player a sense of autonomy, and use 
-		just enough rules to mitigate decision paralysis and ironically 
-		facilitate player choice. If these limitations were not set in place, 
-		the game would be about as cathartic as taking your frustrations on a 
-		set of unsuspecting dominoes. <br><br>
-		&emsp;Many games that provide a power fantasy also include the rise to 
-		that power. Some, like Skyrim, force the player to engage in other 
-		aspects of the game like the story or character building (or just using 
-		a wiki). Others tempt the player into improving themselves and their 
-		skills as a wizard. They might collect better abilities over time, but 
-		the player themself grows from an average office worker into a wizard of 
-		legend. <br><br>
-		&emsp;Therefore, the desire for power through simulated magic is better 
-		qualified by Garza's category of mastery. Games that focus on it give 
-		clear metrics for the player's carnage or the exact increase in their 
-		skills, and can rival the feeling of productivity from a brand new and 
-		lesser paying office job. <br><br>
-		&emsp;None of this is to say that no games with magic are designed to 
-		provide the player with a sense of autonomy or personal freedom, but 
-		for the chaos craving button pusher, this system works just fine.</p>
+		<p class=essay>
+		&emsp;There is a popular activity within the <a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto" target = "_blank">Grand Theft Auto</a> franchise 
+		    where the player fires a rocket into a crowded square just to see 
+		    how long they can evade the cops. With magic, the player is the 
+		    rocket launcher. The player’s innate arsenal gives them complete 
+		    power over the simulated citizens. <br><br>
+        &emsp;<a href="https://diamondleadership.com/psychology-of-power/" target = "_blank">Diamond Leadership</a> writes that power over others leads to 
+            disinhibition and does serve a purpose in real life. In video games, 
+            however, disinhibition serves the purpose of freeing the player from 
+            societal constraints. However, unlike with drunkenness or other 
+            kinds of games, video games are a private experience. Magic 
+            heightens this experience by allowing the player vents that would be 
+            unavailable in any other genre of game. The player could collapse 
+            buildings, turn civilians into landmines, or write expletives on the 
+            moon, and then reset the game and no damage is done. <br><br>
+        &emsp;There is a debate as to whether games like this cross <a href="https://www.youtube.com/watch?v=s6xQlnzffRg" target = "_blank">the line</a> from 
+            stress or rage management to sadism; however, given the fantasy of 
+            these games, they are often, “purposefully abstracted to discourage 
+            you from thinking of the violence in realistic terms”(Portnow 4:26). 
+            To the player of these games, the characters are more like the 
+            buildings than the people. Though in games like <a href="https://fictorum.com/" target = "_blank">Fictorum</a>, they are 
+            like buildings with snipers in them. <br><br>
+        &emsp;Fictorum is based on freely destructible buildings and mid game 
+            spell customization. The buildings add satisfaction to the spell 
+            slinging and can allow the player to make self-imposed challenges. 
+            But spells themselves have up to three modifiers that can be changed 
+            in the middle of combat. Whenever the player casts a spell, they can 
+            add varying degrees of each modifier. The more of each they add the 
+            more expensive and slow the spell is, but modifiers include 
+            multi-shot, range, and explosiveness among others. This system 
+            dramatically increases the range of what the player can do and makes 
+            them feel as if they are shaping the spells as they cast them, 
+            further contributing to the feeling of power. These games make the 
+            player feel as if they can do almost anything for a couple hours 
+            with the only consequence being to their time investment.<br><br>
+        </p>
+        
 	</div>
-    <div class=footer></div>
-
+	<div class=footer></div>
 
 </body> 
 

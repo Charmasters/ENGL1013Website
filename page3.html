@@ -25,12 +25,12 @@
 		display: block;
 		color: ivory;
 		text-align: center;
-		padding: 14px 14%;
 		text-decoration: none;
 		float:left;
+		flex-grow: 1;
 	}
 	.navigation{
-		display:inline-block;
+		display:flex;
 		list-style-type: none;
 		margin: 0px -5px;
 		padding: 0;
@@ -59,6 +59,8 @@
 		background-color: Chocolate;
 	}
 	.content{
+	    width: 80%;
+	    display: inline-block;
 		margin:-50px 10% 50px;
 		box-shadow: 5px -1px 5px -5px lavender;
 		padding: 15px 120px;
@@ -70,41 +72,87 @@
 		font-family: "avantgarde", "sans-serif";
 		font-size: 40pt;
 	}
+	.image{
+	    
+    }
 	.essay{
 		font-family: "avantgarde", "sans-serif";
 		font-size: 20pt;
+		float: left;
 	}
     .footer{
+        float:middle;
         background-color: forestgreen;
         height: 200px;
-        width: 105%;
-        margin-left: -5%;
+        width: 10000%;
+        margin-left: -1000%;
         margin-bottom: -10px;
-        bottom: 0;
-        right:0;
         border-top: 5px double mintcream;
     }
+    
 
 </style>
 <head>
         <title>Samuel Armstrong's Super Cool Website</title>
 </head>
 <body>
-    <div class=header><p class=headtext>Argument 3</p>
+    <div class=header><p class=headtext>Discovery</p>
 	    </div>
-	<img style="float:right; width:300px; height:300px; margin-right:250px;
-	    margin-top: -150px; border: 5px solid mintcream;"
-	    src=test.jpg>
 	<ul class=navigation>	
-		<li class=topnav style="float:left"><a href="index.html">About</a></li>
+		<li class=topnav style="float:left; padding-right: 2.5%;"><a href="index.html">About</a></li>
 		<li class=spacebox><p></li>
 		<li class=topnav><a href="page1.html">Page1</a></li>
 		<li class=topnav><a href="page2.html">Page2</a></li>
 		<li class=topnav><a class=active href="page3.html">Page3</a></li>
+		<li class=spacebox><p></li>
 		<li class=topnav style="float:right"><a href="references.html">References</a></li>
 	</ul>
 	<div class=content>
-		<p class=essay>This is a test of page 3's essay.</p>
+		<p class=essay>
+		&emsp;Discovery must come before creativity and power in a magic system. 
+		    Players choose to discover not just because they are curious, but 
+		    because the knowledge can strengthen their magic in innovative ways. 
+		    Curiosity is still important to designers if they want players to 
+		    explore. Unfortunately, this means predicting the psyche of their 
+		    notoriously fickle players. <br><br>
+        &emsp;To help understand the nature of curiosity, Celeste Kidd and Benjamin 
+            Hayden wrote a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4635443/" target = "_blank">paper</a> on the subject. They reference a study which 
+            correlated a high degree of curiosity with having “some idea about 
+            the answer, but lack[ing] confidence”(Kidd and Hayden). <br><br>
+        &emsp;To a game designer, this suggests that they need to properly explain 
+            their system with a tutorial, an intuitive user interface, or some 
+            other method which allows the player to understand the basics. 
+            However, the player will not try to learn more if they feel like 
+            they know everything. Beyond balancing confusion, curiosity, and 
+            boredom for studious players, the developer also needs to engage 
+            less focused players. <br><br>
+        &emsp;Kid and Hayden recorded another study which tested how well subjects 
+            recalled pictures of faces both during and outside of answering 
+            trivia. Those who were engaged in trivia could also recall the 
+            faces more accurately suggesting that, “the curiosity state led to 
+            better learning, even for the things people weren’t curious about”
+            (Kidd and Hayden). <br><br>
+        &emsp;This means that by creating lore, a world, and characters that interest 
+            the player, the player will be able to remember other aspects of the 
+            game as well. On top of the story and world, the role playing games 
+            in the <a href="https://wiki.ultimacodex.com/wiki/Ultima_Underworld_(disambiguation)" target = "_blank">Ultima Underworld</a> series use a system of rune crafting to 
+            encourage experimentation. As the player gains new runes, they can 
+            try them with other runes to learn spells. This directly translates 
+            to a spell list, however, and being the only arcane experimentation, 
+            can become tedious. <br><br>
+        &emsp;Another game to attempt discovery is <a href="https://www.unrealworld.fi/urw_whatis.html" target = "_blank">UnReal World</a>. It is a massive and 
+            feature rich fictionalization of ancient Finland and is not purely a 
+            fantasy game. What magic it does have is mysterious and ties to the 
+            world and the atmosphere. For example, the player may hear from a 
+            character that kicking a tree with their heel prevents squirrels 
+            from leaving it. In game mechanics, this translates to approaching a 
+            tree, facing away from it, and kicking the tree to make hunting the 
+            furry rodents easier. <br><br>
+        &emsp;Few games attempt discovery in their magic systems due to the difficulty 
+            of making an intricate ‘system’ for their magic, but the extra depth 
+            will appeal to a niche of players who want to feel truly like 
+            Gandalf.<br><br>
+</p>
 	</div>
     <div class=footer></div>
 

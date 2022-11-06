@@ -25,12 +25,12 @@
 		display: block;
 		color: ivory;
 		text-align: center;
-		padding: 14px 14%;
 		text-decoration: none;
 		float:left;
+		flex-grow: 1;
 	}
 	.navigation{
-		display:inline-block;
+		display:flex;
 		list-style-type: none;
 		margin: 0px -5px;
 		padding: 0;
@@ -59,6 +59,8 @@
 		background-color: Chocolate;
 	}
 	.content{
+	    width: 80%;
+	    display: inline-block;
 		margin:-50px 10% 50px;
 		box-shadow: 5px -1px 5px -5px lavender;
 		padding: 15px 120px;
@@ -70,20 +72,24 @@
 		font-family: "avantgarde", "sans-serif";
 		font-size: 40pt;
 	}
+	.image{
+	    
+    }
 	.essay{
 		font-family: "avantgarde", "sans-serif";
 		font-size: 20pt;
+		float: left;
 	}
     .footer{
+        float:middle;
         background-color: forestgreen;
         height: 200px;
-        width: 105%;
-        margin-left: -5%;
+        width: 10000%;
+        margin-left: -1000%;
         margin-bottom: -10px;
-        bottom: 0;
-        right:0;
         border-top: 5px double mintcream;
     }
+    
 
 </style>
 <head>
@@ -92,50 +98,50 @@
 <body>
     <div class=header><p class=headtext>Creativity</p>
 	    </div>
-	<img style="float:right; width:300px; height:300px; margin-right:250px;
-	    margin-top: -150px; border: 5px solid mintcream;"
-	    src=test.jpg>
 	<ul class=navigation>	
-		<li class=topnav style="float:left"><a href="index.html">About</a></li>
+		<li class=topnav style="float:left; padding-right: 2.5%;"><a href="index.html">About</a></li>
 		<li class=spacebox><p></li>
 		<li class=topnav><a href="page1.html">Page1</a></li>
 		<li class=topnav><a class=active href="page2.html">Page2</a></li>
 		<li class=topnav><a href="page3.html">Page3</a></li>
+		<li class=spacebox><p></li>
 		<li class=topnav style="float:right"><a href="references.html">References</a></li>
 	</ul>
 	<div class=content>
 		<p class=essay>
-		&emsp;Video game design must be one of the strangest fields in the 
-		world, because when magic is involved nearly all video games use the 
-		same 'creative' systems. That is largely because they work. <br><br>
-		&emsp;Where some players feel like magic in video games has become 
-		largely unmagical, the kind of library-going ancient-text-translating 
-		wizard would be slow and cumbersome for most games. In its stead, we get 
-		two systems: magic programming and runecrafting.<br><br>
-		&emsp;Magic programming, as its name suggests, is fairly conducive to 
-		the digital medium because it revolves around the player adjusting set 
-		points in a spell's creation. For example: Two Worlds II uses a payload, 
-		a carrier, and a small number of modifiers. In this system, a basic fire 
-		ball would be a projectile carrier with a fire payload and a damage 
-		modifier (or else the fire only blinds opponents). As the player gets 
-		more payloads, carriers, and modifiers, represented in the game as 
-		purchasable cards, they can create more creative and powerful spells 
-		that can duplicate, heat-seek, summon allies, etc. This kind of system 
-		is predictable on the developer's side and fairly easy to program 
-		without introducing bugs or imbalance. The player, in turn, is provided 
-		with a system that encourages creativity and experimentation with what 
-		cards they can obtain. This kind of system provides a middle ground for 
-		magic users who want to mess with powerful magic and wreak havoc and 
-		magic users who want to solve problems and be clever to use magic.<br><br> 
-		&emsp;Even further to the side of experimentation is the runecrafting 
-		system. Games such as the Underworld series occasionally give players 
-		magical runes with little instruction as to how they can be used. Upon 
-		discovering a new rune, the player needs to experiment by combining that 
-		rune with their other runes to see if they have new spells. Some games 
-		even require the player to keep track of their spells on their own. This 
-		system provides nothing for a power-seeking mage, but feels more 
-		academic, or even scientific, to a player who wants to feel like a 
-		pen-and-parchment wizard.</p>
+		&emsp;Whenever someone is not working by habit, they are being creative, 
+		    whether they are looking for cheaper ways to purchase groceries or 
+		    developing entirely new groceries. In her article, <a href="https://www.apa.org/monitor/nov03/creativity" target = "_blank">Karen Kersting</a>
+		    quotes Dr. Dean Simonton in explaining the difference between 
+		    daily-living little-c creativity and mastery big-C creativity 
+		    (Kerstring). <br><br>
+        &emsp;Magic systems in games can create unique challenges of survival where 
+            the player must learn how to effectively use magic and learn its 
+            worth compared to other systems. This would be most obvious in some 
+            fantasy MMOs where magic services can be sold and discovering 
+            efficiencies would be rewarded. While the decisions as to when to 
+            use magic versus to other methods would be more like little-c 
+            creativity, complex fantasy games can push players towards making 
+            big-C breakthroughs. <br><br>
+        &emsp;However, even single player games such as <a href="https://store.steampowered.com/app/373420/Divinity_Original_Sin__Enhanced_Edition/" target = "_blank">Divinity: Original Sin</a> and 
+            <a href="https://noitagame.com/" target = "_blank">Noita</a> encourage interesting styles of play. While in both the player 
+            can see basic attributes of the spells themselves, magic has extra 
+            properties the player can use. <br><br>
+        &emsp;In Divinity, for example, the player could use fireball constantly, but 
+            if the player notices that fog conducts electricity, they utilize a 
+            seaside environment to hit more enemies for a lower cost. Similarly, 
+            Noita simulates every pixel and gives them interesting properties. <br><br>
+        &emsp;In Noita, the player can learn and manipulate the properties of water, 
+            fire, blood, goo, and more to their advantage. Furthermore, the 
+            player can modify wands with different spells and components. 
+            Unfortunately, where these kinds of games would want to encourage 
+            players to experiment and have breakthroughs, the harshness of 
+            Noita discourages players from doing so. <br><br>
+        &emsp;Still, a creative magic system can teach people how to be creative in 
+            unfamiliar situations in ways that rival dedicated strategy or puzzle 
+            games. Where those distill the tactical options and place them in front 
+            of you, magic can wait for the player to think of new ways of using it. <br><br>
+</p>
 	</div>
     <div class=footer></div>
 
